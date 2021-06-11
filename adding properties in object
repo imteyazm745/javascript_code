@@ -1,0 +1,24 @@
+const printer = {};
+
+//adding by dot notation
+printer.on = true;   
+printer.mode = 'black and white';
+
+//adding by square bracket notation
+printer['remainingSheets'] = 168; 
+
+printer.print = function () {
+  console.log('The printer is printing!');
+};
+
+/* The complete printer object's properties now looks like the following:
+
+{
+  on: true,
+  mode: 'black and white',
+  remainingSheets: 168,
+  print: function () {
+    console.log('The printer is printing!');
+  }
+}
+*/
