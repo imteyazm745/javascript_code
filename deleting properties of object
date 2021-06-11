@@ -1,0 +1,12 @@
+const printer = {
+  on: true,
+  mode: 'black and white',
+  remainingSheets: 168,
+  print: function () {
+    console.log('The printer is printing!');
+  }
+};
+//deleting property
+delete printer.mode;
+
+// true
