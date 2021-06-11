@@ -1,0 +1,19 @@
+const iceCreamOriginal = {
+  Andrew: 3,
+  Richard: 15
+};
+//assigning a new variable to iceCreamOriginal
+const iceCreamCopy = iceCreamOriginal;
+
+iceCreamCopy.Richard;
+// 15
+
+//changing the value in the copy
+
+iceCreamCopy.Richard = 99;
+
+iceCreamCopy.Richard;
+// 99
+
+iceCreamOriginal.Richard;
+// 99
