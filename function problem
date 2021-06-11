@@ -1,0 +1,10 @@
+let string = 'orange';
+
+function changeToApple(string) {
+  string = 'apple';
+}
+
+changeToApple(string);
+
+console.log(string);
+// orange
