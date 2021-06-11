@@ -1,0 +1,10 @@
+function changeToEight(n) {
+  n = 8; // whatever n was, it is now 8... but only in this function!
+}
+
+let n = 7;
+
+changeToEight(n);
+
+console.log(n);
+// 7
