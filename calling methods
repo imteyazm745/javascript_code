@@ -1,0 +1,11 @@
+const developer = {
+  name: 'Andrew',
+  sayHello: function () {
+    console.log('Hi there!');
+  }
+};
+developer.sayHello();
+// 'Hi there!'
+
+developer['sayHello']();
+// 'Hi ther
